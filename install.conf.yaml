@@ -1,0 +1,13 @@
+- defaults:
+    link:
+      create: true
+      relink: true
+
+- clean: ['~']
+
+- link:
+    ~/.config/hypr: hypr
+    ~/.config/nvim: nvim
+
+- shell:
+  - [git submodule update --init --recursive, Installing submodules]
