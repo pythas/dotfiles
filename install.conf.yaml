@@ -8,6 +8,9 @@
 - link:
     ~/.config/hypr: hypr
     ~/.config/nvim: nvim
+    ~/.tmux.conf: tmux.conf 
+    ~/.tmuxinator: tmuxinator
+    ~/.zshrc: zshrc
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]

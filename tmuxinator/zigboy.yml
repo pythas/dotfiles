@@ -1,0 +1,6 @@
+name: zigboy
+root: ~/projects/zigboy/
+windows:
+  - editor: nvim
+  - scratch:
+
