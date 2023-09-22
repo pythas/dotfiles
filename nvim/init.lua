@@ -405,6 +405,8 @@ local servers = {
   -- tsserver = {},
   -- html = { filetypes = { 'html', 'twig', 'hbs'} },
   zls = {},
+  phpactor = {},
+
 
   lua_ls = {
     Lua = {

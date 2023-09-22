@@ -1,0 +1,15 @@
+name: capitolbio
+root: ~/projects/capitolbio/
+windows:
+  - editor:
+    - clear
+    - nvim
+  - scratch:
+  - logs:
+      layout: main-vertical
+      panes:
+        - http:
+          - tail -f /var/log/httpd/error_log
+        - php_fpm:
+          - tail -f /var/log/php74-fpm.log
+
